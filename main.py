@@ -36,7 +36,7 @@ def main():
         submit = st.form_submit_button(label='Submit')
 
     if submit:
-        if options == 'Navie Bayes':
+        if options == 'Naive Bayes':
             model = navieBayes
             st.write(predict_from_raw(model, raw_text))
 
